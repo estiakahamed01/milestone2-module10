@@ -214,6 +214,24 @@
   filter: grayscale(100%);
 }
 
+/* Footer Section */
+.footer-container{
+  width: 1440px;
+height: 100px;
+border-radius: 8px;
+background: rgb(255, 244, 231);
+justify-content: center;
+align-items: center;
+margin: 100px auto;
+}
+
+.footer-content{
+  width: 650px;
+color: rgb(66, 66, 66);
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 400;
+}
 /* Responsive Media Query */
 @media screen and (max-width:576px) {
     .navbar, .nav-links, .features, .teams{
